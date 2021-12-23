@@ -1,0 +1,15 @@
+name: TpAll
+version: 1.0.0
+author: Skiddy
+API: 2.0.0
+main: TpAll\TpAll
+
+commands:
+  teleportall:
+    description: Teleport All Players To You
+    permission: tpall.p
+    aliases: [tpall]
+    
+permissions:
+  tpall.p:
+    default: op
